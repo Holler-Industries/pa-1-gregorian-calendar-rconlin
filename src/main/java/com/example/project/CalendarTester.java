@@ -33,8 +33,26 @@ public class CalendarTester {
         System.out.println("myCal Year: " + myCal.get(Calendar.YEAR));
 
         // R: Extra credit attempt with if statements.. success!
+        if ((myCal.get(Calendar.DAY_OF_WEEK)) ==2) {
+            System.out.println("Current Day of Week: Monday");
+        }
+        if ((myCal.get(Calendar.DAY_OF_WEEK)) ==3) {
+            System.out.println("Current Day of Week: Tuesday");
+        }
         if ((myCal.get(Calendar.DAY_OF_WEEK)) ==4) {
             System.out.println("Current Day of Week: Wednesday");
+        }
+        if ((myCal.get(Calendar.DAY_OF_WEEK)) ==5) {
+            System.out.println("Current Day of Week: Thursday");
+        }
+        if ((myCal.get(Calendar.DAY_OF_WEEK)) ==6) {
+            System.out.println("Current Day of Week: Friday");
+        }
+        if ((myCal.get(Calendar.DAY_OF_WEEK)) ==7) {
+            System.out.println("Current Day of Week: Saturday");
+        }
+        if ((myCal.get(Calendar.DAY_OF_WEEK)) ==1) {
+            System.out.println("Current Day of Week: Sunday");
         }
 
         //Call the .add method to add 100 days to myCal.  Then, check the date and weekday of this new date.
